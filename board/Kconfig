@@ -179,6 +179,13 @@ menu "Device Support"
 		help
 		  Say Y if you want to include support for Samsung Galaxy S20 FE
 
+        config XIAOMI_RUBY
+                bool "Support for Xiaomi Ruby devices"
+                default n
+                depends on MT6877
+                help
+                  Say Y if you want to include support for Redmi Note 12 Pro 5G/Pro+ 5G/Discovery
+
 	config XIAOMI_BLOSSOM
 		bool "Support for Xiaomi Blossom devices"
 		default n
